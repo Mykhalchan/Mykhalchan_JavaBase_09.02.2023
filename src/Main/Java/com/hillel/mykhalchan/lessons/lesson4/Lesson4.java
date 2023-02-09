@@ -24,7 +24,7 @@ public class Lesson4 {
         System.out.println();
 
         System.out.println("Показатели атаки войнов династии Мин: ");
-
+// fgdgdf
         int AttackRateWarriorMin = 9;
         int AttackRateArcherMin = 35;
         int AttackRateRiderMin = 12;
