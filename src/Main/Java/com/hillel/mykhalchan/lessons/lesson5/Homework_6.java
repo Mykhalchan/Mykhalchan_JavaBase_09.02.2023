@@ -74,6 +74,7 @@ public class Homework_6 {
             player11 = scanner.nextInt();
         } else {
             System.out.println("Введите корректное значение в виде числа");
+            player11 = scanner.nextInt();
             System.exit(0);
         }
         System.out.println("Введите количество фрагов для второго игрока " + title2);
