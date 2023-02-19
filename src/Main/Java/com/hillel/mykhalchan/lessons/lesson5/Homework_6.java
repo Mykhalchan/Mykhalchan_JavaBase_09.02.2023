@@ -11,16 +11,9 @@ public class Homework_6 {
         int player3 = -1;
         int player4 = -1;
         int player5 = -1;
-        int player11 = -1;
-        int player22 = -1;
-        int player33 = -1;
-        int player44 = -1;
-        int player55 = -1;
 
         System.out.println("Введите название первой команды");
         String title = scanner.nextLine();
-        System.out.println("Введите название второй команды");
-        String title2 = scanner.nextLine();
 
         System.out.println();
 
@@ -63,6 +56,17 @@ public class Homework_6 {
             System.exit(0);
         }
 
+        Scanner scanner1 = new Scanner(System.in);
+
+        int player11 = -1;
+        int player22 = -1;
+        int player33 = -1;
+        int player44 = -1;
+        int player55 = -1;
+
+        System.out.println();
+        System.out.println("Введите название второй команды");
+        String title2 = scanner1.nextLine();
         System.out.println();
 
         System.out.println("Введите количество фрагов для первого игрока команды " + title2);
