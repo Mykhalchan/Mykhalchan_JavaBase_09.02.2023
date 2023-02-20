@@ -19,7 +19,7 @@ public class Homework_7 {
                     }
                 }
         System.out.println();
-        System.out.println("Вы исчерпали 3 попітки. Я загадал число " + random_number);
+        System.out.println("Вы исчерпали 3 попытки. Я загадал число " + random_number);
         }
     }
 
