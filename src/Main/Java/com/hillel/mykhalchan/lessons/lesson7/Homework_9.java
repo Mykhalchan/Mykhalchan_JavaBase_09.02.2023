@@ -1,6 +1,5 @@
 package com.hillel.mykhalchan.lessons.lesson7;
 import java.util.Arrays;
-import java.util.Scanner;
 public class Homework_9 {
     public static void main(String[] args) {
         int [] command1 = new int[25];
@@ -22,7 +21,7 @@ public class Homework_9 {
         }
         sum1/=25;
         sum2/=25;
-
+                    System.out.println();
                     System.out.println("Средний возраст игроков команды 1: " + sum1);
                     System.out.println("Средний возраст игроков команды 2: " + sum2);
 
